@@ -1,6 +1,6 @@
 # Weather Forecast
 
-Module 6 Challenge
+Module 6 Challenge --currently incomplete!
 
 ## Description
 
@@ -20,4 +20,4 @@ Contact [Susan](https://github.com/s-s-lee) if there are any issues or problems 
 
 ## Licenses
 
-This repo use the [MIT License](https://github.com/s-s-lee/weather-forecast/blob/main/LICENSE).
+This repo uses the [MIT License](https://github.com/s-s-lee/weather-forecast/blob/main/LICENSE).
