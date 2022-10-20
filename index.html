@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Susan's Weather Forecast</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>
+<header>
+    <section class="hero is-small is-link">
+        <div class="hero-body has-text-centered">
+            <p class="title">Susan's Weather Forecast</p>
+        </div>
+    </section>
+
+<main>
+    <div class="tile is-ancestor">
+        <div class="tile is-3 is-vertical is-parent is-justify-content-center">
+          <div class="tile is-child box">
+            <h2 class="subtitle">Search by City:</h2>
+            <div class="block">
+                <div class="field is-grouped">
+                  <div class="control is-expanded">
+                    <input class="input" type="text" placeholder="Philadelphia" id="searchedCity">
+                  </div>
+                </div>
+                <div class="block">
+                  <div class="control">
+                    <button class="button is-link is-focused is-fullwidth" type="submit" id="btnSearch">Search</button>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <!-- this needs to be hidden with mobile breakpoint -->
+          <div class="tile is-child box is-hidden-mobile">
+            <h2 class="subtitle">Search History:</h2>
+            <!-- localStorage to retrieve most recently searched cities -->
+            <div id="recent-cities"></div>
+          </div>
+        </div>
+        <div class="tile is-parent">            
+        <!-- selected city's current forecast -->
+        <div class="tile is-child box">
+            <h2 class="subtitle">Name of City and today's date</h2>
+            <div class="container" id="current-location"></div>            
+            <!-- 5-day forecast for the selected city -->
+        <div class="tile is-child box">
+            <div class="columns">
+                <h2 class="subtitle">5-Day Forecast:</h2>
+                <div class="column">
+                First column
+                </div>
+                <div class="column">
+                Second column
+                </div>
+                <div class="column">
+                Third column
+                </div>
+                <div class="column">
+                Fourth column
+                </div>
+                <div class="column">
+                Fifth column
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+      
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/luxon@3.0.4/build/global/luxon.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+</main>
+</body>
+
+<footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Susan's Weather Forecast</strong> by <a href="https://github.com/s-s-lee">Susan Lee</a>. The source code is licensed
+        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The repo can be found at <a href="https://github.com/s-s-lee/weather-forecast">Weather Forecast</a>.
+      </p>
+    </div>
+  </footer>
+
+</html>
