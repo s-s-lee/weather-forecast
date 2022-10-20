@@ -12,7 +12,7 @@ https://s-s-lee.github.io/weather-forecast/
 
 The image below is a screenshot of the Weather Forecast website.
 
-<img alt="screenshot of a weather forecast website" src="./images/weather-forecast-screenshot.png" />
+<img alt="screenshot of a weather forecast website" src="./assets/images/weather-forecast-screenshot.png" />
 
 ## Contact
 
